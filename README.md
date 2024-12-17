@@ -62,7 +62,7 @@ The `e` command allows:
 
 #### **Overview**
 This phase involves writing a **Lexical Analyzer** for Cool using a lexical analyzer generator:
-- **Tools**: `flex` (C++) / `jlex` (Java)
+- **Tools**: `flex` (C++)
 - The scanner reads Cool source files and identifies tokens such as keywords, identifiers, operators, and literals.
 
 #### **Key Features**
@@ -80,7 +80,7 @@ This phase involves writing a **Lexical Analyzer** for Cool using a lexical anal
 
 #### **Overview**
 In this assignment, I implemented a **Parser** for Cool using:
-- **Parser Generators**: `bison` (C++) / `CUP` (Java)
+- **Parser Generators**: `bison` (C++)
 - The parser generates an **Abstract Syntax Tree (AST)** representing the syntactic structure of Cool programs.
 
 #### **Key Features**
